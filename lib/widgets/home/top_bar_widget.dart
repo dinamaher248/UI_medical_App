@@ -27,29 +27,13 @@ class TopBarWidget extends StatelessWidget {
                   radius: 25,
                   backgroundImage: AssetImage('Images/photo_profile.jpg'),
                 ),
-                Spacer(),
-                IconButton(
-                    onPressed: () {
-                      context.push('/notification');
-                    },
-                    icon: Icon(
-                      Icons.notification_add,
-                      color: Colors.white,
-                    )),
-                IconButton(
-                    onPressed: () {
-                      GoRouter.of(context).push('/cart');
-                    },
-                    icon: Icon(
-                      Icons.inbox,
-                      color: Colors.white,
-                    )),
+                
               ],
             ),
           ),
           //welcome text
           Padding(
-            padding: EdgeInsets.only(left: 8.w, top: 3.h),
+            padding: EdgeInsets.only(left: 8.w, top: 2.h),
             child: Align(
               alignment: Alignment.centerLeft,
               child: Column(

@@ -14,7 +14,7 @@ class Productdetails extends StatelessWidget {
         child: Column(
           children: [
             Padding(
-              padding: EdgeInsets.only(left: 8.w, top: 12.w),
+              padding: EdgeInsets.only(left: 2.w, top: 12.w),
               child: Row(
                 children: [
                   IconButton(
@@ -23,19 +23,7 @@ class Productdetails extends StatelessWidget {
                       context.pop();
                     },
                   ),
-                  Spacer(),
-                  IconButton(
-                      onPressed: () {},
-                      icon: Icon(
-                        Icons.notification_add,
-                        color: Colors.black,
-                      )),
-                  IconButton(
-                      onPressed: () {},
-                      icon: Icon(
-                        Icons.inbox,
-                        color: Colors.black,
-                      )),
+                 
                 ],
               ),
             ),
@@ -256,7 +244,9 @@ class Productdetails extends StatelessWidget {
                       style: ElevatedButton.styleFrom(
                           backgroundColor: const Color(0xFF4157FF),
                           minimumSize: Size(80.w, 6.h)),
-                      onPressed: () {},
+                      onPressed: () {
+                    GoRouter.of(context).push('/cart');
+                  },
                       child: Text(
                         'Go to Cart',
                         style: GoogleFonts.inter(
