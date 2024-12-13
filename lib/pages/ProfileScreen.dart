@@ -4,8 +4,8 @@ import 'package:sizer/sizer.dart';
 import 'package:ui_navigator_app/widgets/bottombar.dart';
 import 'package:ui_navigator_app/widgets/profile_info_widget.dart';
 
-class Profile extends StatelessWidget {
-  const Profile({super.key});
+class ProfileScreen extends StatelessWidget {
+  const ProfileScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

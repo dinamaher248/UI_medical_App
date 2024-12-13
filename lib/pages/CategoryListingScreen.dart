@@ -5,8 +5,8 @@ import 'package:sizer/sizer.dart';
 import 'package:ui_navigator_app/main.dart';
 import 'package:ui_navigator_app/widgets/category_widget.dart';
 
-class Categorylisting extends StatelessWidget {
-  const Categorylisting({super.key});
+class CategorylistingScreen extends StatelessWidget {
+  const CategorylistingScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

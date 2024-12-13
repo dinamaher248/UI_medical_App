@@ -4,8 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:sizer/sizer.dart';
 import 'package:ui_navigator_app/main.dart';
 
-class Productdetails extends StatelessWidget {
-  const Productdetails({super.key});
+class ProductDetailsScreen extends StatelessWidget {
+  const ProductDetailsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

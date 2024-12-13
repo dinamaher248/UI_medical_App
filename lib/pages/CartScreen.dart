@@ -5,8 +5,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:sizer/sizer.dart';
 import 'package:ui_navigator_app/widgets/bottombar.dart';
 
-class Cart extends StatelessWidget {
-  const Cart({super.key});
+class CartScreen extends StatelessWidget {
+  const CartScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

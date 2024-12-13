@@ -8,8 +8,8 @@ import 'package:ui_navigator_app/widgets/category_widget.dart';
 import 'package:ui_navigator_app/widgets/home/top_bar_widget.dart';
 import 'package:ui_navigator_app/widgets/top_category_widget.dart';
 
-class Home extends StatelessWidget {
-  const Home({super.key});
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -16,31 +16,31 @@ void main() {
     routes: [
       GoRoute(
         path: '/',
-        builder: (context, state) => Splash(),
+        builder: (context, state) => SplashScreen(),
       ),
       GoRoute(
         path: '/home',
-        builder: (context, state) => Home(),
+        builder: (context, state) => HomeScreen(),
       ),
       GoRoute(
         path: '/category',
-        builder: (context, state) => Categorylisting(),
+        builder: (context, state) => CategorylistingScreen(),
       ),
       GoRoute(
         path: '/product',
-        builder: (context, state) => Productdetails(),
+        builder: (context, state) => ProductDetailsScreen(),
       ),
       GoRoute(
         path: '/cart',
-        builder: (context, state) => Cart(),
+        builder: (context, state) => CartScreen(),
       ),
       GoRoute(
         path: '/notification',
-        builder: (context, state) => Notificationn(),
+        builder: (context, state) => NotificationScreen(),
       ),
       GoRoute(
         path: '/profile',
-        builder: (context, state) => Profile(),
+        builder: (context, state) => ProfileScreen(),
       ),
     ],
   );

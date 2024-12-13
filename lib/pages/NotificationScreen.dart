@@ -6,8 +6,8 @@ import 'package:ui_navigator_app/main.dart';
 import 'package:ui_navigator_app/widgets/bottombar.dart';
 import 'package:ui_navigator_app/widgets/notify_widget.dart';
 
-class Notificationn extends StatelessWidget {
-  const Notificationn({super.key});
+class NotificationScreen extends StatelessWidget {
+  const NotificationScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
