@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 import 'package:go_router/go_router.dart';
 
-import 'package:ui_navigator_app/pages/CartScreen.dart';
-import 'package:ui_navigator_app/pages/CategoryListingScreen.dart';
-import 'package:ui_navigator_app/pages/HomeScrean.dart';
-import 'package:ui_navigator_app/pages/NotificationScreen.dart';
-import 'package:ui_navigator_app/pages/ProductDetailsScreen.dart';
-import 'package:ui_navigator_app/pages/ProfileScreen.dart';
-import 'package:ui_navigator_app/pages/SplashScreen.dart';
+import 'package:ui_navigator_app/pages/cart_screen.dart';
+import 'package:ui_navigator_app/pages/category_listing_screen.dart';
+import 'package:ui_navigator_app/pages/home_screan.dart';
+import 'package:ui_navigator_app/pages/notification_screen.dart';
+import 'package:ui_navigator_app/pages/product_details_screen.dart';
+import 'package:ui_navigator_app/pages/profile_screen.dart';
+import 'package:ui_navigator_app/pages/splash_screen.dart';
 
 void main() {
   final GoRouter router = GoRouter(
